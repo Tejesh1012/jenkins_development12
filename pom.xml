@@ -54,7 +54,7 @@
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
-          <reportPlugins>
+          <reporting><Plugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -210,11 +210,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-         <dependency>
- <groupId>junit</groupId>
- <artifactId>junit</artifactId>
- <scope>test</scope>
-</dependency>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
