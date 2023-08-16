@@ -90,7 +90,6 @@
     </plugins>
   </build>
          
-       <build>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -99,7 +98,6 @@
         </plugin>
       </plugins>
       </pluginManagement>    
-       </build>
 
          <build>
                   <plugins>
