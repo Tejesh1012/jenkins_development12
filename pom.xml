@@ -21,6 +21,10 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
+         <properties>
+  <junit.version>4.11</junit.version>
+</properties>
+
   <modules>
     <module>server</module>
     <module>webapp</module>
@@ -210,6 +214,11 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+         <dependency>
+ <groupId>junit</groupId>
+ <artifactId>junit</artifactId>
+ <scope>test</scope>
+</dependency>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
